@@ -1,6 +1,7 @@
 <template>
-  <h1>{{ user?.displayName }}</h1>
-  <h3>{{ user?.email }}</h3>
+  <h1>
+    Welcome, {{ user?.displayName }} <small>({{ user?.email }})</small>
+  </h1>
   <table border="1" style="width: 50%">
     <colgroup>
       <col style="width: 25%" />
